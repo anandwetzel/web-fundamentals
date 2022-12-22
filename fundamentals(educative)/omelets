@@ -1,0 +1,28 @@
+<html>
+ <head>
+   <title>Exercise 5: Structuring a Page for Cooking a Food Recipe</title>
+ </head>
+ <body>
+	<!-- Write your recipe here -->
+    <h1>Omelet Recipe</h1>
+
+    <h2>Ingredients</h2>
+    <ul type="sqare">
+        <li>Eggs</li>
+        <li>Salt</li>
+        <li>Pepper</li>
+        <li>Toast</li>
+        <li>Butter</li>
+    </ul>
+
+    <h3>Recipe</h3>
+    <ol type="i">
+        <li>Add toast to toaster.</li>
+        <li>Spray a pan with cooking spray.</li>
+        <li>Crack 2 eggs over pan.</li>
+        <li>Add salt and pepper.</li>
+        <li>When eggs are mostly cooked, flip.</li>
+        <li>Put the eggs on a plate when finished.</li>
+        <li>Apply butter to toast.</li>
+ </body>
+</html>
