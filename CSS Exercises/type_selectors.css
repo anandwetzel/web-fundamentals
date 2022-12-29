@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+  }
+  
+  h1,
+  .info {
+      color: green;
+  }
+  
+  .primary,
+  #warning {
+      color: white;
+  }
+  
+  .info,
+  .primary {
+      background-color: blue;
+  }
