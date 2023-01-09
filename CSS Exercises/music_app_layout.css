@@ -1,0 +1,59 @@
+html,
+main {
+    flex: 1 0 auto; /*fill the available space*/
+    display: flex;
+}
+
+body {
+    height: 100%; /*setting this explicitly is important*/
+}
+
+body {
+    display: flex; 
+    flex-direction: column; /*Stack the flex-items (main and footer elements) vertically NOT horizontally*/
+    background-color: #fff;
+    margin: 0;
+    font-family: Lato, sans-serif;
+    color: #222;
+    font-size: 0.9em;
+}
+
+footer {
+    flex: 0 0 90px; /*stay at a height of 90px.*/
+    padding: 10px;
+    color: #fff;
+    background-color: rgba(61, 100, 158, .9);
+}
+
+aside {
+    flex: 0 0 40px; /*stay fixed at 40px*/
+    display: flex; 
+    flex-direction: column; /*Stack my flex-item's vertically*/
+    justify-content: space-around;
+    align-items: center; /*direction is changed! This affects the horizontal direction*/
+    background-color: #f2f2f2; 
+}
+
+/*font size for the icons*/
+aside i.fa {
+    font-size: 0.9em;
+}
+
+.content {
+    display: flex;
+    flex: 1 0 auto; /*fill the entire available space*/
+    flex-direction: column;
+}
+
+.music-head {
+    flex: 0 0 280px; /*tay at 280px*/
+    display: flex;  
+    padding: 40px;
+    background-color: #4e4e4e;
+  }
+  
+.music-list {
+    flex: 1 0 auto;
+    list-style-type: none;
+    padding: 5px 10px 0px;
+}
