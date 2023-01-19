@@ -12,3 +12,9 @@ li {
     color: #fff;
     font-size: 1em;
 }
+
+@media screen and (max-width: 769px) {
+ul {
+                flex-direction: column;
+            }
+}
